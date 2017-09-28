@@ -1,0 +1,37 @@
+
+// @font-face 
+// 	font-family: 'bebas_neuethin'
+// 	src: url('../fonts/bebasneue_thin-webfont.woff2') format('woff2'), url('../fonts/bebasneue_thin-webfont.woff') format('woff')
+// 	font-weight: normal
+// 	font-style: normal
+
++font(SUPERBEBAS,'bebasneue_thin-webfont')
+.menu-button 
+	border-radius: 20px 
+	background: pink
+	color: #fff
+	padding: 20px  
+	display: inline-block
+	cursor: pointer
+.gallery 
+	.img
+		width: 300px 
+		height: 200px 
+		line-height: 200px
+		font-size: 100px  
+		text-align: center
+		border: 1px solid tomato 
+		// font-family: Baskerville,sans-serif 
+		font-family: SUPERBEBAS,sans-serif
+		 
+	.slick-prev,.slick-next
+		position: absolute
+		left: 10px 
+		top: 50% 
+		width: 50px 
+		background: pink 
+		height: 50px 
+		transform: translate(0,-50%)
+	.slick-next
+		left: auto
+		right: 10px 
